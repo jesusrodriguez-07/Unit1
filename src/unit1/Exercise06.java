@@ -22,7 +22,7 @@ public class Exercise06 {
 		sub = (num1 - num2);
 		mult = (num1 * num2);
 		div = (num1 / num2);
-		
+		//Shows the results
 		System.out.println("Addition: " + add);
 		System.out.println("Subtraction: " + sub);
 		System.out.println("Multiplication: " + mult);
