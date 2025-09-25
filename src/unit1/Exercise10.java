@@ -15,7 +15,7 @@ public class Exercise10 {
 		
 		even = number % 2 == 0;
 		
-		System.out.println("Your number is even?: " + even);
+		System.out.println("Your number is even?: " + (even ? "Yes" : "No"));
 		
 		
 		scanner.close();
