@@ -21,7 +21,7 @@ public class Exercise03 {
 		num2 = scanner.nextInt();
 
 		/*
-		 * We make that if the reaminder of the division isn't equal to 0 we have to
+		 * We make that if the reminder of the division isn't equal to 0 we have to
 		 * subtract the remainder of num1 and num2 to num2 to have the number we have to
 		 * add to be multiple of num2
 		 */
