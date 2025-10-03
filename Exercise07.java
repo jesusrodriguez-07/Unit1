@@ -23,19 +23,27 @@ public class Exercise07 {
 		// total price
 		double total;
 
+		// we ask the user for the number of child tickets they have bought
 		System.out.print("Introduce the number of child tickets you have bought: ");
 		numYoung = sc.nextInt();
 
+		// we ask for the number of adult tickets
 		System.out.print("Introduce the number of adult tickets you have bought: ");
 		numAdult = sc.nextInt();
 
+		// we make the operations to know the price of the child tickets
 		youngPrice = numYoung * YOUNG;
+		// and the operations for the adult tickets price
 		adultPrice = numAdult * ADULT;
 
+		// we add the prices and we have the total without discount
 		totalNoDiscount = (youngPrice + adultPrice);
-		
+
+		// we make that if the price overpass or is equal to 100 we have to do a 5%
+		// discount
 		total = totalNoDiscount >= 100 ? totalNoDiscount * 0.95 : totalNoDiscount;
 
+		// we show the final result to the user
 		System.out.println("This is the total price you have to pay: " + total);
 
 		sc.close();
